@@ -1,0 +1,484 @@
+@media (max-width: 1440px) and (min-width: 1025px){
+    .contentWrapper>.firstWrapper>.left>h1{
+        font-size: 40px;
+    }
+    .contentWrapper>.firstWrapper>.left>button{
+        margin-top: -18px;
+    }
+    .contentWrapper>.thirdWrapper>.productsPreview{
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .contentWrapper>.fourthWrapper>.workers>.info>.other>.person{
+        flex-basis: 24.8%;
+    }
+}
+
+@media (max-width: 1024px) and (min-width:769px){
+    .contentWrapper>.firstWrapper>.left>h1{
+        font-size: 30px;
+    }
+    .contentWrapper>.secondWrapper>.right>.item{
+        height: 330px;
+    }
+    .contentWrapper>.thirdWrapper>.products{
+        align-items:center;
+    }
+    .contentWrapper>.thirdWrapper>.productsPreview>.item{
+        width:33%;
+    }
+    .contentWrapper>.fourthWrapper>.workers>.info>span{
+        padding-top: 10px;
+    }
+    .contentWrapper>.fourthWrapper>.workers>.info>.socials{
+        padding: 20px 0 20px 0;
+    }
+    .contentWrapper>.fourthWrapper>.workers>.info>.other{
+        padding-top: 30px;
+    }
+    .contentWrapper>.fifthWrapper form{
+        text-align: center;
+    }
+    .contentWrapper>.fifthWrapper form button{
+        margin-top:20px;
+    }
+    .contentWrapper>.sixthWrapper>.left>.contacts>.form input{
+        flex-basis: 100%;
+        margin-bottom: 10px;
+    }
+    .contentWrapper>.sixthWrapper>.left>.contacts>.form textarea{
+        margin-top: 0;
+    }
+    .contentWrapper>.sixthWrapper>.right>.info{
+        height:254px;
+    }
+}
+
+@media (max-width: 768px) and (min-width: 426px){
+    .headerWrapper{
+        padding:0;
+    }
+    .contentPadding{
+        padding: 0 50px 0 50px;
+    }
+
+
+    .contentWrapper>.firstWrapper{
+        flex-direction: column;
+        text-align: center;
+    }
+    .contentWrapper>.firstWrapper>.left {
+        width: 100%;
+    }
+
+    .contentWrapper>.firstWrapper>.right{
+        width: 100%;
+        padding: 40px 0 0 0;
+    }
+
+    .contentWrapper>.secondWrapper{
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 0;
+    }
+    .contentWrapper>.secondWrapper>.left{
+        padding:0;
+        width: 100%;
+    }
+    .contentWrapper>.secondWrapper>.right{
+        width: 100%;
+        padding-top: 40px;
+    }
+    .contentWrapper>.secondWrapper>.right>.item>img{
+        display: inline-block;
+    }
+
+    .contentWrapper>.thirdWrapper>.productsPreview>.item{
+        width:24%;
+    }
+
+    .contentWrapper>.fourthWrapper{
+        text-align: center;
+    }
+    .contentWrapper>.fourthWrapper>.subhead>span{
+        display:inline-block;
+    }
+    .contentWrapper>.fourthWrapper>.subhead>span:after{
+        left:50%;
+        margin-left: -75px;
+    }
+    .contentWrapper>.fourthWrapper>.workers{
+        flex-direction: column;
+    }
+    .contentWrapper>.fourthWrapper>.workers>.selected{
+        padding:0;
+    }
+    .contentWrapper>.fourthWrapper>.workers>.info{
+        padding: 40px 0 0 0;
+    }
+    .contentWrapper>.fourthWrapper>.workers>.info>.socials{
+        justify-content: center;
+    }
+    .contentWrapper>.fifthWrapper{
+        text-align: center;
+
+    }
+    .contentWrapper>.fifthWrapper>form>input{
+        width: 100%;
+    }
+    .contentWrapper>.fifthWrapper>form>button{
+        display:inline-block;
+        margin: 40px 0 0 0;
+    }
+    .contentWrapper>.sixthWrapper{
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 0;
+    }
+    .contentWrapper>.sixthWrapper>.left{
+        padding: 0 50px 0 50px;
+        width: auto;
+    }
+    .contentWrapper>.sixthWrapper>.left>.subhead>span:after{
+        left:50%;
+        margin-left: -50px;
+    }
+    .contentWrapper>.sixthWrapper>.right{
+        padding: 50px 0 0 0;
+        width: auto;
+    }
+    .contentWrapper>.sixthWrapper>.right>.info{
+        padding: 50px 0 50px 0;
+    }
+}
+
+@media (max-width: 425px) and (min-width: 376px){
+    h1{font-size: 30px; text-align: center}
+    .contentPadding{ padding: 0 10px 0 10px; }
+    .headerWrapper{
+        padding:0;
+        height: 40px;
+    }
+    .headerWrapper>.menu{
+        height:inherit;
+
+    }
+    .headerWrapper>.menu>.item{
+        padding: 10px 20px 10px 20px;
+    }
+    .contentWrapper>.firstWrapper{
+        padding: 50px 10px 50px 10px;
+        flex-direction: column;
+    }
+    .contentWrapper>.firstWrapper>.left{
+        width:100%;
+        text-align: center;
+    }
+    .contentWrapper>.firstWrapper>.left>span{
+        display: block;
+        text-align: left;
+    }
+    .contentWrapper>.firstWrapper>.right{
+        width:100%;
+        padding: 20px 0 20px 0;
+    }
+    .contentWrapper>.secondWrapper{
+        flex-direction: column;
+        padding: 50px 0 50px 0;
+    }
+    .contentWrapper>.secondWrapper>.left{
+        flex-direction: column;
+        padding: 0;
+        width: 100%;
+        text-align: center;
+    }
+    .contentWrapper>.secondWrapper>.left>span{
+        display: block;
+        text-align: left;
+        padding-left: 10px;
+    }
+    .contentWrapper>.secondWrapper>.left>button{
+        display: inline-block;
+    }
+    .contentWrapper>.secondWrapper>.right{
+        width: 100%;
+        padding-top: 20px;
+    }
+    .contentWrapper>.secondWrapper>.right>.item{
+        width: 100%;
+        text-align: center;
+        height:222px;
+    }
+    .contentWrapper>.secondWrapper>.right>.item:nth-child(2n){
+        width: 100%;
+        padding: 0;
+    }
+    .contentWrapper>.secondWrapper>.right>.item>img{
+        display:inline-block;
+    }
+    .contentWrapper>.thirdWrapper{
+        padding-top:50px;
+        padding-bottom: 50px;
+        text-align: center;
+    }
+    .contentWrapper>.thirdWrapper>.products{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .contentWrapper>.thirdWrapper>.products{
+        flex-direction: column;
+    }
+    .contentWrapper>.thirdWrapper>.productsPreview{
+        flex-direction: column;
+    }
+    .contentWrapper>.thirdWrapper>.productsPreview>.item:nth-child(n+4){
+        display:none;
+    }
+    .contentWrapper>.fourthWrapper{
+        text-align: center;
+        padding-bottom: 50px;
+    }
+    .contentWrapper>.fourthWrapper>.subhead>span:after{
+        left:50%;
+        margin-left: -75px;
+    }
+    .contentWrapper>.fourthWrapper>.workers{
+        flex-direction: column;
+    }
+    .contentWrapper>.fourthWrapper>.workers>.info{
+        padding-left: 0;
+    }
+    .contentWrapper>.fourthWrapper>.workers>.info>span{
+        padding-top: 0;
+        padding-bottom: 20px;
+    }
+    .contentWrapper>.fourthWrapper>.workers>.info>.socials>.item{
+        padding: 0;
+        flex-basis: 25%;
+    }
+    .contentWrapper>.fifthWrapper{
+        padding-top: 50px;
+        padding-bottom: 50px;
+        text-align: center;
+    }
+    .contentWrapper>.fifthWrapper>form>input{
+        width: 90%;
+    }
+    .contentWrapper>.fifthWrapper>form>button{
+        margin-top: 20px;
+    }
+    .contentWrapper>.sixthWrapper{
+        flex-direction: column;
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 0;
+    }
+    .contentWrapper>.sixthWrapper>.left{
+        padding-left: 10px;
+        padding-right: 10px;
+        flex-basis: 100%;
+        text-align: center;
+        width: auto;
+    }
+
+    .contentWrapper>.sixthWrapper>.left>.subhead>span:after{
+        left: 50%;
+        margin-left: -50px;
+        display: block;
+    }
+    .contentWrapper>.sixthWrapper>.left>.contacts>.form{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .contentWrapper>.sixthWrapper>.left>.contacts>.form input{
+        flex-basis: 100%;
+    }
+    .contentWrapper>.sixthWrapper>.left>.contacts>.form input:nth-child(2){
+        margin-top: 20px;
+    }
+    .contentWrapper>.sixthWrapper>.right{
+        flex-basis: 100%;
+        width:100%;
+        padding: 0;
+    }
+    .contentWrapper>.sixthWrapper>.right>.info{
+        padding: 50px 10px 50px 10px;
+    }
+}
+
+@media (max-width: 375px) and (min-width: 320px){
+    h1{font-size: 35px; letter-spacing: normal;}
+    .contentPadding{
+        padding: 0;
+    }
+    .headerWrapper{
+        height: 50px;
+        padding:0;
+    }
+    .headerWrapper>.menu{
+        height:inherit;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .headerWrapper>.menu>.item{
+        padding:17px;
+    }
+    .contentWrapper>.firstWrapper{
+        flex-direction: column;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .contentWrapper>.firstWrapper>.left{
+        width:auto;
+        text-align: center;
+    }
+    .contentWrapper>.firstWrapper>.left>span{
+        display: block;
+        padding-top: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .contentWrapper>.firstWrapper>.right{
+        width:auto;
+        text-align: center;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .contentWrapper>.secondWrapper{
+        flex-direction: column;
+        padding: 50px 10px 50px 10px;
+    }
+    .contentWrapper>.secondWrapper>.left{
+        text-align: center;
+        width:100%;
+        padding:0;
+    }
+    .contentWrapper>.secondWrapper>.right{
+        text-align: center;
+        width:100%;
+        padding-top:20px;
+    }
+    .contentWrapper>.secondWrapper>.right>.item{
+        width: 100%;
+        text-align: center;
+        height: 230px;
+    }
+    .contentWrapper>.secondWrapper>.right>.item>img{
+        display: inline-block;
+    }
+    .contentWrapper>.secondWrapper>.right>.item:nth-child(2n){
+        width:100%;
+    }
+    .contentWrapper>.thirdWrapper{
+        padding-bottom: 50px;
+        padding-top: 50px;
+        flex-direction: column;
+        text-align: center;
+    }
+    .contentWrapper>.thirdWrapper>.subhead>span{
+        padding: 40px 10px 40px 10px;
+    }
+    .contentWrapper>.thirdWrapper>.products{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        flex-direction: column;
+    }
+    .contentWrapper>.thirdWrapper>.products>.item{
+        padding: 10px 0 10px 0;
+    }
+    .contentWrapper>.thirdWrapper>.productsPreview{
+        flex-direction: column;
+    }
+    .contentWrapper>.thirdWrapper>.productsPreview>.item:nth-child(n+5){
+        display:none;
+    }
+    .contentWrapper>.fourthWrapper{
+        text-align: center;
+        padding-bottom: 50px;
+    }
+    .contentWrapper>.fourthWrapper>.subhead>span{
+        padding: 40px 10px;
+    }
+    .contentWrapper>.fourthWrapper>.subhead>span:after{
+        left: 50%;
+        margin-left: -75px;
+    }
+    .contentWrapper>.fourthWrapper>.workers{
+        flex-direction: column;
+        padding: 0 10px 0 10px;
+    }
+    .contentWrapper>.fourthWrapper>.workers>.selected{
+        width:auto;
+        padding-right: 0;
+        padding-top: 20px;
+    }
+    .contentWrapper>.fourthWrapper>.workers>.info{
+        width:100%;
+        padding:0;
+    }
+    .contentWrapper>.fourthWrapper>.workers>.info>span{
+        padding-top: 20px;
+        line-height: normal;
+    }
+    .contentWrapper>.fourthWrapper>.workers>.info>.socials{
+        justify-content: space-between;
+        padding-bottom: 40px;
+        padding-top: 10px;
+    }
+    .contentWrapper>.fourthWrapper>.workers>.info>.socials>.item{
+        padding: 0;
+    }
+    .contentWrapper>.fifthWrapper{
+        padding-top: 50px;
+        padding-bottom: 50px;
+        text-align: center;
+    }
+    .contentWrapper>.fifthWrapper>form>input{
+        width: 80%;
+    }
+    .contentWrapper>.fifthWrapper>form>button{
+        margin-top: 20px;
+    }
+    .contentWrapper>.sixthWrapper{
+        padding-top: 50px;
+        padding-bottom: 0;
+        flex-direction: column;
+    }
+    .contentWrapper>.sixthWrapper>.left{
+        padding-left: 10px;
+        padding-right: 10px;
+        width:auto;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .contentWrapper>.sixthWrapper>.left>.subhead>span{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .contentWrapper>.sixthWrapper>.left>.subhead>span:after{
+        left:50%;
+        margin-left: -50px;
+    }
+    .contentWrapper>.sixthWrapper>.left>.contacts>.form{
+        padding-top: 20px;
+    }
+    .contentWrapper>.sixthWrapper>.left>.contacts>.form input{
+        width:90%;
+        flex-basis: 90%;
+    }
+    .contentWrapper>.sixthWrapper>.left>.contacts>.form input:nth-child(2){
+        margin-top: 10px;
+    }
+    .contentWrapper>.sixthWrapper>.right{
+        width:auto;
+        padding:0;
+        text-align: center;
+        flex-basis: auto;
+    }
+    .contentWrapper>.sixthWrapper>.right>.info{
+        padding: 50px 10px 50px 10px;
+    }
+}
